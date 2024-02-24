@@ -1,4 +1,25 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.home_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
 
+
+.title_container{
+  margin: 80px 80px;
+}
+
+.main_nav ul{
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px;
+}
+
+.main_nav ul li{
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+  list-style: none;
+}
